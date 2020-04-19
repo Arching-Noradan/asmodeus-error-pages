@@ -1,0 +1,183 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #FFFFFF;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.page-container {
+    overflow-x: hidden;
+}
+
+a:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.main {
+    width: 100%;
+    clear: both;
+    background: 50% 50% no-repeat;
+    padding: 0 50px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+    display: flex;
+}
+
+.main .container {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.main-small {
+    padding: 20px 50px;
+}
+
+.fillingscreen {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.fillingscreen>.container {
+    align-self: flex-middle;
+    flex-grow: 1;
+    display: flex;
+}
+
+.fillingscreen>.container>.row {
+    flex-grow: 1;
+    align-self: center;
+    width: 100%;
+}
+
+.main-gr {
+    display: flex;
+}
+
+.partoftwogroup {
+    width: 50%;
+}
+
+.partoftwogroup .container {
+    width: 100%;
+}
+
+.lighthuch {
+    color: rgba(0, 0, 0, .5);
+}
+
+.margin-to-zero {
+    margin: 0;
+}
+
+.margin-large {
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: "Montserrat";
+}
+
+.container {
+    max-width: 1140px;
+}
+
+.h4-style {
+    font-size: 90px;
+}
+
+.h5-style {
+    font-size: 40px;
+}
+
+.black-text {
+    color: #000000!important;
+}
+
+.paderrortext {
+    margin-bottom: 8%;
+}
+
+.img-errorasmodeus {
+    width: 474px;
+}
+
+@media (max-width: 1024px) {
+    .main {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media (max-width: 991px) {
+    .container {
+        width: 100%;
+    }
+    .page-container {
+        overflow-x: hidden;
+        position: relative;
+    }
+    .main {
+        padding-left: constant(safe-area-inset-left);
+        padding-right: constant(safe-area-inset-right);
+    }
+    .main-gr,
+    .main-gr .main {
+        display: block;
+        width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    .page-container {
+        overflow-x: hidden;
+        position: relative;
+    }
+    .partoftwogroup .container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+@media (max-width: 991px) {
+    .h4-mobile-style {
+        font-size: 80px;
+    }
+    .h5-mobile-style {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 767px) {
+    .h4-mobile-style {
+        font-size: 80px;
+    }
+    .h5-mobile-style {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 575px) {
+    .h4-style {
+        font-size: px;
+    }
+    .h4-mobile-style {
+        font-size: 70px;
+    }
+    .h5-mobile-style {
+        font-size: 40px;
+    }
+}
